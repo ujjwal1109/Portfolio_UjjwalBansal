@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#logo {
+    float: left;
+    padding: 10px 30% 10px 10%;
+}
+
+#logo img {
+    width: 200px;
+    height: 130px;
+    background: none;
+}
+
+
+/* Wrapper */
+#hamnav {
+    width: 100%;
+    background: #dc9dae;
+
+}
+#hamitems a:hover{
+    background:white;
+    color:black;
+    border-radius:0px 10px;
+}
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+#hamitems {
+    padding: 30px;
+}
+
+#hamitems a {
+    width: 10%;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.8;
+    display: block-inline;
+    font-weight: 600;
+    margin-right:5px !important;
+}
+
+#hamitems a:hover {
+    color: black;
+}
+
+
+.main {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/backgroundujjw.jpg);
+    background-size: cover;
+}
+
+.main h1 {
+    padding: 10% 0px 40px 10%;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.main p {
+    margin-left: 10%;
+    font-size: 60px;
+    margin-top: 20px;
+    display: inline;
+    padding: 20px;
+    border: 4px solid white;
+}
+
+
+
+.service {
+    width: 80%;
+    height: 150px;
+    padding: 100px 10%;
+    color: black;
+}
+
+.serve {
+    width: 25%;
+    height: 100px;
+    line-height: 30px;
+    float: left;
+    margin: 0px 1%;
+    padding: 0px 3%;
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+animation-delay: .sub-heading {
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.serve p,
+.serve2 p {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+
+.serve a {
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    color: white;
+}
+
+.about {
+
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.about h1 {
+    color: #000116;
+}
+
+.about_l {
+    width: 30%;
+    padding: 20px 5%;
+    float: left;
+    height: 400px;
+}
+
+.about_l img {
+    border-radius: 5%;
+    width: 400px;
+    height: 500px;
+}
+
+.about_r {
+    width: 50%;
+    padding: 50px 5%;
+    float: left;
+}
+
+.about_r h2 {
+    font-size: 35px;
+    color: #000116;
+}
+
+.about_r p {
+    line-height: 30px;
+}
+
+.about_r button,
+.portfolio button,
+.client button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    background: #000;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    font-weight: bold;
+}
+
+.portfolio {
+    width: 80%;
+    height: 500px;
+    padding: 100px 10%;
+    background: url(../images/backgroundujjw.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: white;
+    font-size: 20px;
+
+    padding: 20px 0px;
+}
+
+.portfolio img {
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+
+.client {
+
+    width: 80%;
+    height: 600px;
+    padding: 100px 10%;
+}
+
+.client h1 {
+    color: #000116;
+}
+
+.client_l {
+    width: 40%;
+    padding: 70px 5%;
+    float: left;
+}
+
+.client_r {
+    width: 50%;
+    padding: 30px 0px;
+    float: left;
+}
+
+.client_r h2 {
+    font-size: 35px;
+    color: #000116;
+}
+
+.client_r p {
+    line-height: 30px;
+}
+
+.client span {
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #000116;
+    color: white;
+    padding: 30px 10%;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #hamnav label {
+        display: inline-block;
+        color: white;
+        background: #a02620;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+
+
+    }
+
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+        padding: 50px;
+        letter-spacing: 0.8;
+    }
+
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked ~ #hamitems {
+        display: block;
+    }
+
+    .main {
+
+        height: 300px;
+
+
+    }
+
+    .main h1 {
+        padding: 15% 0px 40px 2%;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .main p {
+        margin-left: 2%;
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .serve {
+        width: 90%;
+        height: 200px;
+        float: left;
+        margin: 0px 1%;
+    }
+
+    .service {
+        height: 800px;
+    }
+
+    .about_l {
+        width: 80%;
+        padding: 20px 10%;
+        float: left;
+    }
+
+    .about_r {
+        width: 90%;
+        padding: 20px 5%;
+        float: left;
+    }
+
+    .about {
+        height: 600px;
+    }
+
+    .portfolio {
+        height: auto;
+    }
+
+    .portfolio img {
+        border: 1px solid #000116;
+        height: 300px;
+        width: 95%;
+    }
+}
+
+
+#form {
+
+    height: 350px;
+    width: 70%;
+    padding: 60px 0px;
+    color: black;
+
+}
+
+#form h1 {
+    padding: 10px;
+}
+
+#form input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px sold black;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#form input[type="submit"] {
+    background: #aabb00;
+    width: 40%;
+    color: black;
+    margin-top: 20px;
+}
+
+#form input[type="submit"]:hover {
+    background: #aabbff;
+}
+
+.n1 {
+    margin: 1%;
+    float: left;
+    width: 31%;
+}
+
+.n1 label {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.n4 input[type="text"],
+textarea {
+    margin-top: 1%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.n4 label {
+    font-size: 20px;
+    color: white;
+}
+
+#main2 {
+    background: lightgrey;
+    height: 100vh;
+    padding: 20vh 0px;
+}
+
+#sucess {
+    background: lightgreen;
+    height: 150px;
+    width: 60%;
+    padding: 20px 30px;
+    color: white;
+    margin: auto;
+}
+
+#hamitems a {
+    text-transform: uppercase;
+}
+
+#left {
+    padding: 10% 0px 0px 5%;
+    width: 55%;
+    height: 500px;
+    float: left;
+}
+
+#left {}
+
+#pic {
+    position: relative;
+    width: 40%;
+    height: 700px;
+    float: left;
+
+}
+
+.stroke {
+    -webkit-text-stroke: 2px white;
+    color: transparent !important;
+
+}
+
+#left h3 {
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.8;
+    line-height: 120px;
+    color: #000;
+}
+
+.about_r span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: montserrat;
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 2px black;
+}
+
+.sub-heading::before {
+    font-family: "font awesome 5 pro";
+    position: absolute;
+    content: '\f108';
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: -50px;
+    margin-top: 10px;
+
+}
+
+.portfolio span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: montserrat;
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 1px #9200ee;
+}
+
+.client span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: montserrat;
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 1px #9200ee;
+}
+
+.serve2 {
+    width: 27%;
+    height: 400px;
+    line-height: 20px;
+    float: left;
+    margin: 0px 3%;
+    text-align: left !important;
+
+}
+
+#back {
+    background: white;
+    height: 200px;
+    width: 60%;
+    padding: 20px 30px;
+    color: black;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#back h1 {
+    font-size: 40px;
+    padding: 30px 10px;
+}
+
+#back a {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 10px 20px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #form {
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    #form {
+        height: 550px;
+        width: 80%;
+    }
+
+    .n1 {
+
+        width: 98%;
+    }
+
+    #back h1 {
+
+        font-size: 30px;
+
+
+    }
+
+    .main {
+        height: auto;
+    }
+
+    #pic {
+        float: none;
+        height: 560px;
+        width: 100%;
+    }
+
+    #pic img {
+        height: 500px;
+    }
+
+    #left {
+        float: none;
+        height: 450px;
+    }
+
+    .serve2 {
+        width: 100%;
+        height: 400px;
+        float: none;
+    }
+
+    .client {
+        height: auto;
+    }
+
+    .client_r {
+        width: 100%;
+        padding: 30px 0px;
+        float: none;
+    }
+
+    .client_l {
+        width: 100%;
+        height: 400px;
+        padding: 30px 0px;
+        float: none;
+    }
+
+    .client span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: montserrat;
+        color: transparent;
+        font-size: 50px;
+        font-weight: 900;
+        opacity: .1;
+        line-height: 0;
+        -webkit-text-stroke: 1px;
+    }
+
+    .portfolio span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: montserrat;
+        color: transparent;
+        font-size: 50px;
+        font-weight: 900;
+        opacity: .1;
+        line-height: 0;
+        -webkit-text-stroke: 1px #9200ee;
+    }
+
+    .about_r span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: montserrat;
+        color: transparent;
+        font-size: 50px;
+        font-weight: 900;
+        opacity: .1;
+        line-height: 0;
+        -webkit-text-stroke: 1px #9200ee;
+    }
+
+    #form {
+
+        height: 300px;
+        width: 70%;
+
+
+    }
+}
+
+q {
+    font-size: 70px;
+}
+
+.sub-heading2 {
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.sub-heading2::before {
+    font-family: "font awesome 5 pro";
+    position: absolute;
+    font-size: 20px;
+    content: '\f5f8';
+    height: 50px;
+    width: 50px;
+    color: #000;
+    font-size: 40px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+.sub-heading3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.sub-heading3::before {
+    font-family: "font awesome 5 pro";
+    position: absolute;
+    content: '\f1d8';
+    color: #000;
+    font-size: 40px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+ #home {
+    position: sticky !important;
+    z-index: 9999;
+    background: white;
+    top: 0;
+}
+
+#loader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    z-index: 9999;
+    opacity: 1;
+    transition: 1s;
+}
+
+#loader img {
+    padding-top: 10%;
+    width: 30%;
+    height: 300px;
+}
+
+#work {
+    float: none;
+    width: 100%;
+}
+
+#work2 {
+    float: none;
+    width: 100%;
+}
+
+#logo img {
+    width: 40px;
+    height: 50px;
+}
+
+#left h3 {
+    color: white;
+}
+
+#left span {
+    font-size: 20px;
+    color: white;
+}
+
+#work2 span {
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+
+}
+
+.mapouter i {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mapouter {
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.n4 {
+    margin-top: 1%;
+}
+
+.n5 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 1px solid black;
+    margin-top: 4%;
+}
+#a {
+    text-decoration: none;
+    color: #000;
+}
